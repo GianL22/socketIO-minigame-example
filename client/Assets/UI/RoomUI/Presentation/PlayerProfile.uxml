@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/RoomUI/Presentation/RoomStyles.uss?fileID=7433441132597879392&amp;guid=640a859099b12a148ba905bc745bc0e4&amp;type=3#RoomStyles" />
+    <ui:VisualElement class="player-template" style="flex-grow: 1;">
+        <ui:VisualElement name="PlayerProfile" class="player-profile" style="flex-grow: 1;">
+            <ui:VisualElement name="PlayerSprite" class="player-sprite" style="flex-grow: 1;" />
+            <ui:VisualElement name="NameCard" class="name-card" style="flex-grow: 1;">
+                <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 54px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,47 @@
+
+:root{
+
+    --color-1: rgb(11, 224, 18);
+}
+.player-sprite {
+    flex-grow: 0;
+    border-top-left-radius: -123%;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-left-color: var(--color-1);
+    border-right-color: var(--color-1);
+    border-top-color: var(--color-1);
+    border-bottom-color: var(--color-1);
+    border-top-width: 8px;
+    border-right-width: 8px;
+    border-bottom-width: 8px;
+    border-left-width: 8px;
+    background-image: url('project://database/Assets/Player/Sprite/PlayerSprite.jpg?fileID=2800000&guid=e1e8a881fcabcf34a8cd7352bbdd1720&type=3#PlayerSprite');
+    width: 100%;
+    height: 100%;
+}
+
+.player-profile {
+    width: 100%;
+    height: 100%;
+}
+
+.name-card {
+    flex-grow: 1;
+    background-color: var(--color-1);
+    position: absolute;
+    bottom: 0;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 0;
+    min-width: 100%;
+}
+
+.name-card Label {
+    -unity-text-align: middle-center;
+    -unity-font-definition: url('project://database/Assets/UI/common/font/LTSaeada-Medium%20SDF.asset?fileID=11400000&guid=38730d8fb4d14ab4ba8404460129a0ce&type=2#LTSaeada-Medium SDF');
+    color: rgb(240, 240, 240);
+    font-size: 24px;
+}

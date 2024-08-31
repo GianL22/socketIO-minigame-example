@@ -1,0 +1,31 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/JoinServerUI/Presentation/JoinServerStyles.uss?fileID=7433441132597879392&amp;guid=64123c02231911d40a07ae9695a1d06d&amp;type=3#JoinServerStyles" />
+    <ui:VisualElement name="container" class="container" style="flex-grow: 1;">
+        <ui:VisualElement name="Ttile" class="title" style="flex-grow: 0;">
+            <ui:Label tabindex="-1" text="STEAL OR NO STEAL" parse-escape-sequences="true" display-tooltip-when-elided="true" style="font-size: 100px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="form" class="form">
+            <ui:VisualElement name="body" class="body">
+                <ui:VisualElement name="Inputs" class="inputs">
+                    <ui:TextField picking-mode="Ignore" label="ROOM NAME" value="filler text" name="RoomNameInput" class="input" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Inputs" class="buttons-container">
+                    <ui:Button text="CREATE" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Create" class="button" />
+                    <ui:Button text="JOIN" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Join" class="button" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="PlayerSettings" class="player-settings">
+            <ui:VisualElement name="Player" class="player" style="min-height: 50%; align-items: center; flex-direction: row; justify-content: center;">
+                <ui:VisualElement name="PlayerProfile" class="player-profile" style="flex-grow: 0;">
+                    <ui:VisualElement name="PlayerSprite" class="player-sprite" />
+                    <ui:VisualElement name="NameCard" class="name-card">
+                        <ui:Label tabindex="-1" text="Name" parse-escape-sequences="true" display-tooltip-when-elided="true" name="NameCard" class="name-card" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:TextField picking-mode="Ignore" value="filler text" name="PlayerNameInput" class="player-name-input input" style="max-width: 300px; margin-left: 16px; height: 60px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="ColorsContainer" class="colors-container" style="min-height: 50%; flex-direction: row;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Components/BottomMessage/Presentation/BottomMessageStyles.uss?fileID=7433441132597879392&amp;guid=1f394e4e049d6234ebb6142453d56174&amp;type=3#BottomMessageStyles" />
+    <ui:VisualElement name="Container" class="container" style="flex-grow: 1;">
+        <ui:VisualElement name="Bottom" class="bottom" style="flex-grow: 1;">
+            <ui:Label tabindex="-1" text="Message..." parse-escape-sequences="true" display-tooltip-when-elided="true" name="Message" style="-unity-font-definition: url(&apos;project://database/Assets/UI/common/font/LTSaeada-Medium%20SDF.asset?fileID=11400000&amp;guid=38730d8fb4d14ab4ba8404460129a0ce&amp;type=2#LTSaeada-Medium SDF&apos;); -unity-font: url(&apos;project://database/Assets/other/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=1b15ce532dba0c544b399f743adf4c6d&amp;type=3#NotInter-Regular&apos;);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

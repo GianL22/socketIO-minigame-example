@@ -1,0 +1,42 @@
+.case-container {
+    width: 100%;
+    height: 100%;
+}
+
+.case-sprite {
+    background-image: url('project://database/Assets/UI/common/sprites/portfolio-case_12913841.png?fileID=21300000&guid=76c585eec557b0f409f0e6aed162a639&type=3#portfolio-case_12913841');
+}
+
+.case-label {
+    position: absolute;
+}
+
+.case-title {
+    background-color: rgb(21, 85, 234);
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    width: 60%;
+    max-height: 60%;
+    align-items: center;
+    justify-content: center;
+}
+
+.case-title Label {
+    -unity-font-definition: url('project://database/Assets/UI/common/font/LTSaeada-Medium%20SDF.asset?fileID=11400000&guid=38730d8fb4d14ab4ba8404460129a0ce&type=2#LTSaeada-Medium SDF');
+    color: rgb(255, 255, 255);
+    font-size: 512%;
+    -unity-text-align: middle-center;
+    width: 60%;
+    min-height: auto;
+    max-height: 60%;
+}
+
+.case-number {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,106 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="GreenPlayerProfile" src="project://database/Assets/UI/MatchUI/Presentation/GreenPlayerProfile.uxml?fileID=9197481963319205126&amp;guid=f316df4d76b67c34083e07c4ee7bb257&amp;type=3#GreenPlayerProfile" />
+    <ui:Template name="Eliminated" src="project://database/Assets/UI/MatchUI/Presentation/Eliminated.uxml?fileID=9197481963319205126&amp;guid=cc021dc448c56ea409dbd305d81aeb19&amp;type=3#Eliminated" />
+    <ui:Template name="HasPowerTemplate" src="project://database/Assets/UI/MatchUI/Presentation/Templates/HasPowerTemplate.uxml?fileID=9197481963319205126&amp;guid=a18ac6f2b4006f040ba90bcf6fdb87ba&amp;type=3#HasPowerTemplate" />
+    <ui:Template name="PlayerProfile" src="project://database/Assets/UI/MatchUI/Presentation/PlayerProfile.uxml?fileID=9197481963319205126&amp;guid=9ff5ced43687de147bef8680d1ebe394&amp;type=3#PlayerProfile" />
+    <ui:Template name="CaseTemplate" src="project://database/Assets/UI/MatchUI/Presentation/Templates/CaseTemplate.uxml?fileID=9197481963319205126&amp;guid=53c3341026421a648a6c7ecdfbf84655&amp;type=3#CaseTemplate" />
+    <Style src="project://database/Assets/UI/MatchUI/Presentation/MatchStyles.uss?fileID=7433441132597879392&amp;guid=28427d2c955999643a24bb5804353d15&amp;type=3#MatchStyles" />
+    <ui:VisualElement name="container" class="container" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/UI/common/bg/JoinServerBg.jpg?fileID=2800000&amp;guid=efc70dd076f683a448f152d555fe0af1&amp;type=3#JoinServerBg&apos;); -unity-background-image-tint-color: rgb(0, 45, 255);">
+        <ui:VisualElement name="Scenario" class="scenario" style="flex-grow: 1;">
+            <ui:VisualElement name="RemainPlayerContainer" class="remain-player-container" style="flex-grow: 1;">
+                <ui:VisualElement name="PlayerTitle" class="player-title" style="flex-grow: 1;">
+                    <ui:Label tabindex="-1" text="REMAIN PLAYERS" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                </ui:VisualElement>
+                <ui:VisualElement name="RemainPlayerList" class="remain-player-list" style="flex-grow: 1;">
+                    <ui:VisualElement name="PlayerProfileContainer" class="player-profile-container" style="flex-grow: 1;">
+                        <ui:Instance template="GreenPlayerProfile" name="GreenPlayerProfile" class="player-remain-profile" />
+                        <ui:Instance template="Eliminated" name="Eliminated" class="eliminated" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="PlayerProfileContainer" class="player-profile-container" style="flex-grow: 1;">
+                        <ui:Instance template="GreenPlayerProfile" name="GreenPlayerProfile" class="player-remain-profile" />
+                        <ui:Instance template="HasPowerTemplate" name="HasPowerTemplate" class="has-power" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="PlayerProfileContainer" class="player-profile-container" style="flex-grow: 1;">
+                        <ui:Instance template="GreenPlayerProfile" name="GreenPlayerProfile" class="player-remain-profile" />
+                        <ui:VisualElement name="Eliminated" class="eliminated" style="flex-grow: 1;">
+                            <ui:Label tabindex="-1" text="X" parse-escape-sequences="true" display-tooltip-when-elided="true" name="X" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="PlayerProfileContainer" class="player-profile-container" style="flex-grow: 1;">
+                        <ui:Instance template="GreenPlayerProfile" name="GreenPlayerProfile" class="player-remain-profile" />
+                        <ui:VisualElement name="Eliminated" class="eliminated" style="flex-grow: 1;">
+                            <ui:Label tabindex="-1" text="X" parse-escape-sequences="true" display-tooltip-when-elided="true" name="X" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="PlayerProfileContainer" class="player-profile-container" style="flex-grow: 1;">
+                        <ui:Instance template="GreenPlayerProfile" name="GreenPlayerProfile" class="player-remain-profile" />
+                        <ui:VisualElement name="Eliminated" class="eliminated" style="flex-grow: 1;">
+                            <ui:Label tabindex="-1" text="X" parse-escape-sequences="true" display-tooltip-when-elided="true" name="X" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="PlayerProfileContainer" class="player-profile-container" style="flex-grow: 1;">
+                        <ui:Instance template="GreenPlayerProfile" name="GreenPlayerProfile" class="player-remain-profile" />
+                        <ui:VisualElement name="Eliminated" class="eliminated" style="flex-grow: 1;">
+                            <ui:Label tabindex="-1" text="X" parse-escape-sequences="true" display-tooltip-when-elided="true" name="X" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="DuelScenario" class="duel-scenario" style="flex-grow: 1;">
+                <ui:VisualElement name="Duel" class="duel" style="flex-grow: 1;">
+                    <ui:VisualElement name="RoundTitle" class="round-title" style="flex-grow: 1;">
+                        <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="RoundTitleLabel" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="DuelPlayerContainer" class="duel-player-container" style="flex-grow: 1;">
+                        <ui:VisualElement name="PlayerVS" class="player-vs" style="flex-grow: 1; background-color: rgba(255, 0, 0, 0);">
+                            <ui:VisualElement name="PlayerInVs" class="player-in-vs" style="flex-grow: 1;">
+                                <ui:Instance template="PlayerProfile" name="PlayerProfile" class="player-profile-vs-container" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="VSLabelContainer" class="vs-label-container" style="flex-grow: 1;">
+                                <ui:Label tabindex="-1" text="VS" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="PlayerInVsWithCase" class="player-in-vs" style="flex-grow: 1;">
+                                <ui:Instance template="PlayerProfile" name="PlayerProfile" class="player-profile-vs-container" />
+                                <ui:VisualElement name="CaseOwnerContainer" class="case-owner-container" style="flex-grow: 1;">
+                                    <ui:Instance template="CaseTemplate" name="CaseTemplate" class="case" />
+                                </ui:VisualElement>
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="ButtonsContainer" class="buttons-container" style="flex-grow: 1;">
+                        <ui:VisualElement name="StealButtonContainer" class="steal-button-container" style="flex-grow: 1; display: none;">
+                            <ui:Button text="Steal it" parse-escape-sequences="true" display-tooltip-when-elided="true" name="StealButton" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="KeepItContainer" class="keep-it-container" style="flex-grow: 1; display: none;">
+                            <ui:Button text="NO STEAL" parse-escape-sequences="true" display-tooltip-when-elided="true" name="KeepButton" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="UsePowerContainer" class="use-power-container" style="flex-grow: 1; display: none;">
+                            <ui:Button text="Use Power" parse-escape-sequences="true" display-tooltip-when-elided="true" name="UsePowerButton" style="display: flex;" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="SeeCase" class="see-case-container" style="flex-grow: 1; display: none;">
+                            <ui:Button text="See Case" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SeeCaseButton" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="MatchMessageContainer" class="match-message-container" style="flex-grow: 1; display: none;">
+                            <ui:VisualElement name="MatchMessage" class="match-message" style="flex-grow: 1; display: flex;">
+                                <ui:Label tabindex="-1" text="Message Match" parse-escape-sequences="true" display-tooltip-when-elided="true" name="MatchMessageLabel" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="SafedPlayersContainer" class="safed-players-container" style="flex-grow: 1;">
+                <ui:VisualElement name="PlayerTitle" class="player-title" style="flex-grow: 1;">
+                    <ui:Label tabindex="-1" text="SAFED PLAYERS" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Label" />
+                </ui:VisualElement>
+                <ui:VisualElement name="SafedPlayerList" class="safed-player-list" style="flex-grow: 1;">
+                    <ui:VisualElement name="PlayerProfileContainer" class="player-profile-container" style="flex-grow: 1;">
+                        <ui:Instance template="GreenPlayerProfile" name="GreenPlayerProfile" class="player-remain-profile" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="PlayerProfileContainer" class="player-profile-container" style="flex-grow: 1;">
+                        <ui:Instance template="GreenPlayerProfile" name="GreenPlayerProfile" class="player-remain-profile" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

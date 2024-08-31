@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/LoadingUI/Presentation/LoadingStyle.uss?fileID=7433441132597879392&amp;guid=4acdbb98b4cacc54a9fab203a76f2d72&amp;type=3#LoadingStyle" />
+    <ui:VisualElement name="container" class="container">
+        <ui:VisualElement name="modal" class="modal" style="opacity: 1; border-left-color: rgb(25, 70, 16); border-right-color: rgb(25, 70, 16); border-top-color: rgb(25, 70, 16); border-bottom-color: rgb(25, 70, 16); border-top-width: 18px; border-right-width: 18px; border-bottom-width: 18px; border-left-width: 18px;">
+            <ui:VisualElement name="header" class="header" style="flex-grow: 1;">
+                <ui:Label tabindex="-1" text="Header" parse-escape-sequences="true" display-tooltip-when-elided="true" name="text-header" />
+            </ui:VisualElement>
+            <ui:VisualElement name="body" class="body" style="flex-grow: 1;">
+                <ui:Label tabindex="-1" text="Body" parse-escape-sequences="true" display-tooltip-when-elided="true" name="text-body" />
+            </ui:VisualElement>
+            <ui:VisualElement name="bottom" class="bottom" style="flex-grow: 1;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

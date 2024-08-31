@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/MatchUI/Presentation/GreenPlayerProfileInMatch%201.uss?fileID=7433441132597879392&amp;guid=5ac434d1fb266c34eb96509f2e75c73c&amp;type=3#GreenPlayerProfileInMatch 1" />
+    <ui:VisualElement name="PlayerProfile" class="player-profile" style="flex-grow: 1; display: flex;">
+        <ui:VisualElement name="PlayerSprite" class="player-sprite" style="flex-grow: 1;" />
+        <ui:VisualElement name="NameCard" class="name-card" style="flex-grow: 1;">
+            <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

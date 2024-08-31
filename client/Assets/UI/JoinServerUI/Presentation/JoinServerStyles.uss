@@ -1,0 +1,233 @@
+.container {
+    align-items: center;
+    justify-content: center;
+    background-image: url('project://database/Assets/UI/common/bg/JoinServerBg.jpg?fileID=2800000&guid=efc70dd076f683a448f152d555fe0af1&type=3#JoinServerBg');
+}
+
+.form {
+    flex-grow: 0;
+    background-color: rgba(0, 0, 0, 0.56);
+    max-height: 600px;
+    max-width: 800px;
+    min-width: 300px;
+    min-height: 30%;
+    border-top-left-radius: 64px;
+    border-top-right-radius: 64px;
+    border-bottom-right-radius: 64px;
+    border-bottom-left-radius: 64px;
+    padding-top: 64px;
+    padding-right: 64px;
+    padding-bottom: 64px;
+    padding-left: 64px;
+    justify-content: space-between;
+    margin-bottom: 21px;
+}
+
+.header {
+    flex-grow: 0;
+}
+
+.header Label {
+    color: rgb(255, 255, 255);
+    -unity-font-definition: url('project://database/Assets/UI/common/font/LTSaeada-Medium%20SDF.asset?fileID=11400000&guid=38730d8fb4d14ab4ba8404460129a0ce&type=2#LTSaeada-Medium SDF');
+    font-size: 64px;
+    -unity-text-align: upper-center;
+    -unity-font-style: bold;
+    -unity-text-outline-width: 6px;
+}
+
+.body {
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inputs {
+    width: 100%;
+    margin-bottom: 51px;
+}
+
+.input {
+    flex-direction: column;
+    width: 100%;
+    -unity-font-definition: url('project://database/Assets/UI/common/font/LTSaeada-Medium%20SDF.asset?fileID=11400000&guid=38730d8fb4d14ab4ba8404460129a0ce&type=2#LTSaeada-Medium SDF');
+    height: 112px;
+}
+
+.input Label {
+    -unity-font-definition: url('project://database/Assets/UI/common/font/LTSaeada-Medium%20SDF.asset?fileID=11400000&guid=38730d8fb4d14ab4ba8404460129a0ce&type=2#LTSaeada-Medium SDF');
+    color: rgb(255, 255, 255);
+    margin-left: 12px;
+    font-size: 32px;
+}
+
+.input #unity-text-input {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    color: rgb(44, 118, 191);
+    font-size: 24px;
+}
+
+.button {
+    background-color: rgb(255, 255, 255);
+    -unity-font-definition: url('project://database/Assets/UI/common/font/LTSaeada-Medium%20SDF.asset?fileID=11400000&guid=38730d8fb4d14ab4ba8404460129a0ce&type=2#LTSaeada-Medium SDF');
+    color: rgb(44, 118, 191);
+    font-size: 32px;
+    -unity-font-style: bold;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    border-bottom-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    max-width: 300px;
+    min-width: 300px;
+}
+
+.button:hover {
+    background-color: rgb(44, 118, 191);
+    -unity-font-definition: url('project://database/Assets/UI/common/font/LTSaeada-Medium%20SDF.asset?fileID=11400000&guid=38730d8fb4d14ab4ba8404460129a0ce&type=2#LTSaeada-Medium SDF');
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    -unity-font-style: bold;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    border-bottom-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    max-width: 300px;
+    min-width: 300px;
+    transition-duration: 0.2s;
+}
+
+.button:disabled {
+    background-color: rgb(255, 255, 255);
+    -unity-font-definition: url('project://database/Assets/UI/common/font/LTSaeada-Medium%20SDF.asset?fileID=11400000&guid=38730d8fb4d14ab4ba8404460129a0ce&type=2#LTSaeada-Medium SDF');
+    color: rgb(134, 134, 134);
+    font-size: 32px;
+    -unity-font-style: bold;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    border-bottom-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    max-width: 300px;
+    min-width: 300px;
+    transition-duration: 0.2s;
+}
+
+.title {
+    font-size: 128px;
+    -unity-font-definition: url('project://database/Assets/UI/common/font/LTSaeada-Medium%20SDF.asset?fileID=11400000&guid=38730d8fb4d14ab4ba8404460129a0ce&type=2#LTSaeada-Medium SDF');
+    color: rgb(255, 255, 255);
+}
+
+.buttons-container {
+    max-width: none;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.player-settings {
+    min-height: 40%;
+    min-width: 80%;
+    margin-top: 16px;
+}
+
+.player {
+    align-items: center;
+}
+
+.colors-container {
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.color-button {
+    width: 96px;
+    height: 96px;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    border-bottom-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    border-top-width: 8px;
+    border-right-width: 8px;
+    border-bottom-width: 8px;
+    border-left-width: 8px;
+    border-left-color: rgb(22, 59, 94);
+    border-right-color: rgb(22, 59, 94);
+    border-top-color: rgb(22, 59, 94);
+    border-bottom-color: rgb(22, 59, 94);
+    background-color: rgb(0, 0, 0);
+}
+
+.color-button:hover {
+    border-left-color: rgb(255, 245, 113);
+    border-right-color: rgb(255, 245, 113);
+    border-top-color: rgb(255, 245, 113);
+    border-bottom-color: rgb(255, 245, 113);
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    border-bottom-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    border-top-width: 16px;
+    border-right-width: 16px;
+    border-bottom-width: 16px;
+    border-left-width: 16px;
+    transition-duration: 0.2s;
+}
+
+.player-sprite {
+    flex-grow: 0;
+    height: 100%;
+    width: 240px;
+    border-top-left-radius: -123%;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-left-color: rgb(22, 59, 94);
+    border-right-color: rgb(22, 59, 94);
+    border-top-color: rgb(22, 59, 94);
+    border-bottom-color: rgb(22, 59, 94);
+    border-top-width: 8px;
+    border-right-width: 8px;
+    border-bottom-width: 8px;
+    border-left-width: 8px;
+    max-height: 240px;
+    background-image: url('project://database/Assets/Player/Sprite/PlayerSprite.jpg?fileID=2800000&guid=e1e8a881fcabcf34a8cd7352bbdd1720&type=3#PlayerSprite');
+    max-width: 240px;
+}
+
+.player-profile {
+    width: 230px;
+    height: 126%;
+    max-height: 240px;
+    max-width: 240px;
+}
+
+.name-card {
+    flex-grow: 1;
+    width: 240px;
+    min-height: 60px;
+    background-color: rgb(22, 59, 94);
+    position: absolute;
+    bottom: 0;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 0;
+    max-height: 240px;
+    max-width: 240px;
+}
+
+.name-card Label {
+    -unity-text-align: middle-center;
+    -unity-font-definition: url('project://database/Assets/UI/common/font/LTSaeada-Medium%20SDF.asset?fileID=11400000&guid=38730d8fb4d14ab4ba8404460129a0ce&type=2#LTSaeada-Medium SDF');
+    color: rgb(240, 240, 240);
+    font-size: 24px;
+}

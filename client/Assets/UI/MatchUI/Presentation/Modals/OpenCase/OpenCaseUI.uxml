@@ -1,0 +1,37 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="CaseTemplate" src="project://database/Assets/UI/MatchUI/Presentation/Templates/CaseTemplate.uxml?fileID=9197481963319205126&amp;guid=53c3341026421a648a6c7ecdfbf84655&amp;type=3#CaseTemplate" />
+    <Style src="project://database/Assets/UI/MatchUI/Presentation/Modals/OpenCase/OpenCaseStyles.uss?fileID=7433441132597879392&amp;guid=6f0aca2afeb087a468a9b3c1212cd65a&amp;type=3#OpenCaseStyles" />
+    <ui:VisualElement name="Container" class="container" style="flex-grow: 1;">
+        <ui:VisualElement name="Modal" class="modal" style="flex-grow: 1;">
+            <ui:VisualElement name="ModalHeader" class="modal-header" style="flex-grow: 1;">
+                <ui:VisualElement name="OpenCaseTitle" class="open-case-title" style="flex-grow: 1;">
+                    <ui:Label tabindex="-1" text="OPENING CASE" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="ModalBody" class="modal-body" style="flex-grow: 1;">
+                <ui:VisualElement name="OpenCase" class="open-case" style="flex-grow: 1;">
+                    <ui:VisualElement name="CaseContainer" class="case-container" style="flex-grow: 1;">
+                        <ui:Instance template="CaseTemplate" name="CaseTemplate" class="case" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="SafedMessage" class="safed-message" style="flex-grow: 1; display: none;">
+                        <ui:Label tabindex="-1" text="SAFED" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="EliminatedMessage" class="eliminated-message" style="flex-grow: 1; display: none;">
+                        <ui:Label tabindex="-1" text="ELIMINATED" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="OpenCaseMessage" class="open-case-message" style="flex-grow: 1;">
+                    <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="OpenCaseMessageLabel" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="ModalBottom" class="modal-bottom" style="flex-grow: 1;">
+                <ui:VisualElement name="ContinueMessage" class="continue-message" style="flex-grow: 1; display: none;">
+                    <ui:Label tabindex="-1" text="Waiting for the current player to continue..." parse-escape-sequences="true" display-tooltip-when-elided="true" name="Label" />
+                </ui:VisualElement>
+                <ui:VisualElement name="ContinueButton" class="continue-button" style="flex-grow: 1; display: none;">
+                    <ui:Button text="Continue" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

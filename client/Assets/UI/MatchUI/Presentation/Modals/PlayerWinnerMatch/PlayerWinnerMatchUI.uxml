@@ -1,0 +1,29 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="PlayerProfile" src="project://database/Assets/UI/MatchUI/Presentation/PlayerProfile.uxml?fileID=9197481963319205126&amp;guid=9ff5ced43687de147bef8680d1ebe394&amp;type=3#PlayerProfile" />
+    <ui:Template name="GreenPlayerProfile" src="project://database/Assets/UI/MatchUI/Presentation/GreenPlayerProfile.uxml?fileID=9197481963319205126&amp;guid=f316df4d76b67c34083e07c4ee7bb257&amp;type=3#GreenPlayerProfile" />
+    <Style src="project://database/Assets/UI/MatchUI/Presentation/Modals/PlayerWinnerMatch/PlayerWinnerStyles.uss?fileID=7433441132597879392&amp;guid=7cd1711d594ac0c459ee798d47fde50f&amp;type=3#PlayerWinnerStyles" />
+    <ui:VisualElement name="Container" class="container" style="flex-grow: 1;">
+        <ui:VisualElement name="Modal" class="modal" style="flex-grow: 1;">
+            <ui:VisualElement name="ModalHeader" class="modal-header" style="flex-grow: 1;">
+                <ui:Label tabindex="-1" text="WINNER" parse-escape-sequences="true" display-tooltip-when-elided="true" class="modal-title" />
+            </ui:VisualElement>
+            <ui:VisualElement name="ModalBody" class="modal-body" style="flex-grow: 1;">
+                <ui:VisualElement name="WinnerContainer" class="winners-container" style="flex-grow: 1;">
+                    <ui:VisualElement name="PlayerWinnerConatainer" class="player-winner-container" style="flex-grow: 1;">
+                        <ui:VisualElement name="WinnerEffect" class="winner-effect" style="flex-grow: 1;" />
+                        <ui:Instance template="PlayerProfile" name="PlayerProfile" class="player-winner-profile" />
+                        <ui:VisualElement name="Trophy" class="trophy" style="flex-grow: 1;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="LosersContainer" class="losers-container" style="flex-grow: 1;">
+                    <ui:Instance template="GreenPlayerProfile" name="GreenPlayerProfile" class="player-profile-loser" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="ModalBottom" class="modal-bottom" style="flex-grow: 1;">
+                <ui:VisualElement name="ContinueButton" class="continue-button" style="flex-grow: 1;">
+                    <ui:Button text="CONTINUE" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Continue" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

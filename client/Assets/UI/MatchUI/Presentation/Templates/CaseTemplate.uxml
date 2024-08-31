@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/MatchUI/Presentation/Templates/CaseStyles.uss?fileID=7433441132597879392&amp;guid=33773f435eb99e04ca5fde42690b34e4&amp;type=3#CaseStyles" />
+    <ui:VisualElement name="CaseContainer" class="case-container" style="flex-grow: 1;">
+        <ui:VisualElement name="CaseSprite" class="case-sprite" style="flex-grow: 1;" />
+        <ui:VisualElement name="CaseNumber" class="case-number" style="flex-grow: 1; display: flex;">
+            <ui:VisualElement name="CaseTitle" class="case-title" style="flex-grow: 1;">
+                <ui:Label tabindex="-1" text="0" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CaseLabel" class="case-label" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

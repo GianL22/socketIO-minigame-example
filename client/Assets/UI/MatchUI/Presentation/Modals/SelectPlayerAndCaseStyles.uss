@@ -1,0 +1,203 @@
+.container {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.modal {
+    align-items: center;
+    justify-content: center;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out-circ;
+}
+
+.modal-title {
+}
+
+.modal-title Label {
+    -unity-font-definition: url('project://database/Assets/UI/common/font/LTSaeada-Medium%20SDF.asset?fileID=11400000&guid=38730d8fb4d14ab4ba8404460129a0ce&type=2#LTSaeada-Medium SDF');
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    -unity-text-align: upper-center;
+}
+
+.modal-container {
+    max-height: 80%;
+    width: 60%;
+    background-color: rgb(11, 224, 18);
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    border-bottom-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    padding-top: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+    padding-left: 32px;
+}
+
+.modal-header {
+    height: 10%;
+}
+
+.modal-body {
+    height: 80%;
+}
+
+.select-player-title {
+    height: 20%;
+    padding-left: 16px;
+}
+
+.select-player-title Label {
+    -unity-font-definition: url('project://database/Assets/UI/common/font/LTSaeada-Medium%20SDF.asset?fileID=11400000&guid=38730d8fb4d14ab4ba8404460129a0ce&type=2#LTSaeada-Medium SDF');
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+}
+
+.select-players-list {
+    height: 80%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.select-player-profile {
+    width: 16%;
+    min-height: 44%;
+    rotate: 16deg;
+    transition-duration: 0.2s;
+    height: auto;
+    max-height: 76%;
+}
+
+.select-player-section {
+    height: 50%;
+    background-color: rgb(36, 151, 40);
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    border-bottom-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    margin-bottom: 32px;
+}
+
+.select-case-section {
+    height: 50%;
+    background-color: rgb(36, 151, 40);
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    border-bottom-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    margin-bottom: 32px;
+}
+
+.select-case-title Label {
+    -unity-font-definition: url('project://database/Assets/UI/common/font/LTSaeada-Medium%20SDF.asset?fileID=11400000&guid=38730d8fb4d14ab4ba8404460129a0ce&type=2#LTSaeada-Medium SDF');
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+}
+
+.select-case-title {
+    -unity-font-definition: url('project://database/Assets/UI/common/font/LTSaeada-Medium%20SDF.asset?fileID=11400000&guid=38730d8fb4d14ab4ba8404460129a0ce&type=2#LTSaeada-Medium SDF');
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    height: 20%;
+    padding-left: 16px;
+}
+
+.modal-footer {
+    max-height: 10%;
+}
+
+.select-case-list {
+    height: 80%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.case {
+    width: 16%;
+    height: 70%;
+    rotate: 16deg;
+    transition-duration: 0.2s;
+}
+
+.lets-go-container {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.lets-go-container Button {
+    background-color: rgb(21, 85, 234);
+    color: rgb(255, 255, 255);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    font-size: 32px;
+    -unity-font-definition: url('project://database/Assets/UI/common/font/LTSaeada-Medium%20SDF.asset?fileID=11400000&guid=38730d8fb4d14ab4ba8404460129a0ce&type=2#LTSaeada-Medium SDF');
+    transition-duration: 0.2s;
+    width: 40%;
+}
+
+.lets-go-container Button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(21, 85, 234);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    height: 64%;
+    font-size: 24px;
+    -unity-font-definition: url('project://database/Assets/UI/common/font/LTSaeada-Medium%20SDF.asset?fileID=11400000&guid=38730d8fb4d14ab4ba8404460129a0ce&type=2#LTSaeada-Medium SDF');
+    border-top-width: 16px;
+    border-right-width: 16px;
+    border-bottom-width: 16px;
+    border-left-width: 16px;
+    border-left-color: rgb(21, 85, 234);
+    border-right-color: rgb(21, 85, 234);
+    border-top-color: rgb(21, 85, 234);
+    border-bottom-color: rgb(21, 85, 234);
+    rotate: 4deg;
+    scale: 1.1 1.1;
+}
+
+.select-player-profile:hover {
+    width: 16%;
+    min-height: 44%;
+    rotate: 0;
+    transition-duration: 0.2s;
+    height: auto;
+    max-height: 76%;
+    scale: 1.1 1.1;
+}
+
+.case:hover {
+    width: 16%;
+    height: 70%;
+    rotate: 0;
+    scale: 1.1 1.1;
+    transition-duration: 0.2s;
+}
+
+.modal-initial {
+    align-items: center;
+    justify-content: center;
+    scale: 0 0;
+    rotate: 45deg;
+}
+
+.lets-go-container Button:disabled {
+    background-color: rgb(174, 174, 174);
+    color: rgb(255, 255, 255);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    font-size: 32px;
+    -unity-font-definition: url('project://database/Assets/UI/common/font/LTSaeada-Medium%20SDF.asset?fileID=11400000&guid=38730d8fb4d14ab4ba8404460129a0ce&type=2#LTSaeada-Medium SDF');
+    width: 40%;
+    border-left-color: rgb(174, 174, 174);
+    border-right-color: rgb(174, 174, 174);
+    border-top-color: rgb(174, 174, 174);
+    border-bottom-color: rgb(174, 174, 174);
+}

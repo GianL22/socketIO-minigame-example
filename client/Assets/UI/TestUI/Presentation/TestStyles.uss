@@ -1,0 +1,72 @@
+.container {
+    justify-content: center;
+    align-items: center;
+}
+
+.panel {
+    width: 70%;
+    height: 60%;
+    max-height: 749px;
+    max-width: 900px;
+    min-width: 100px;
+    min-height: 300px;
+}
+
+.data-received-label {
+    color: rgb(255, 255, 255);
+}
+
+.label {
+    flex-direction: column-reverse;
+    margin-bottom: 32px;
+}
+
+.unity-button:hover {
+    background-color: rgb(138, 253, 70);
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    border-bottom-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    color: rgb(34, 101, 6);
+    transition-duration: 0.2s;
+    max-width: 300px;
+    rotate: 0;
+    scale: 1.1 1.1;
+}
+
+.unity-button:active {
+    background-color: rgb(212, 255, 186);
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    border-bottom-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    color: rgb(196, 249, 174);
+    transition-duration: 0.2s;
+    max-width: 300px;
+    rotate: 0;
+    scale: 1.1 1.1;
+}
+
+.unity-button {
+    background-color: rgb(63, 151, 11);
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    border-bottom-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    color: rgb(170, 255, 134);
+    scale: 1 1;
+    rotate: 0;
+    transition-duration: 0.2s;
+}
+
+.buttons-list {
+    max-width: none;
+    width: 100%;
+    align-items: center;
+}
+
+.create-room-button {
+}
+
+.add-player-button {
+}

@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="Eliminated" class="eliminated" style="flex-grow: 1;">
+        <ui:Label tabindex="-1" text="X" parse-escape-sequences="true" display-tooltip-when-elided="true" name="X" />
+    </ui:VisualElement>
+</ui:UXML>

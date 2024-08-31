@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/TestUI/Presentation/TestStyles.uss?fileID=7433441132597879392&amp;guid=256dc31ec4a6bf742b2fe913383f7f16&amp;type=3#TestStyles" />
+    <ui:VisualElement name="container" class="container" style="flex-grow: 1;">
+        <ui:VisualElement name="panel" class="panel" style="flex-grow: 1;">
+            <ui:VisualElement name="label" class="label" style="flex-grow: 1;">
+                <ui:Label tabindex="-1" text="No data received yet" parse-escape-sequences="true" display-tooltip-when-elided="true" name="data-received-label" class="data-received-label" style="-unity-text-align: upper-center;" />
+                <ui:TextField picking-mode="Ignore" label="Room" value="filler text" name="room-input" />
+            </ui:VisualElement>
+            <ui:VisualElement name="buttons-list" class="buttons-list" style="flex-grow: 1;">
+                <ui:Button text="Create Room Button" parse-escape-sequences="true" display-tooltip-when-elided="true" name="create-room-button" class="unity-button create-room-button" style="min-width: 572px; max-width: 911px;" />
+                <ui:Button text="Add Player Button" parse-escape-sequences="true" display-tooltip-when-elided="true" name="add-player-button" class="unity-button add-player-button" style="min-width: 572px; max-width: 911px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

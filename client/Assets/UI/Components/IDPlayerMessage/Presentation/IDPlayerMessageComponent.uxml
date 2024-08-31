@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="Container" style="flex-grow: 1; max-width: 100px; min-height: 60px; height: 10px; width: 61px;">
+        <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="IdPlayer" style="-unity-font: url(&apos;project://database/Assets/UI/common/font/LTSaeada-Medium.otf?fileID=12800000&amp;guid=40b082b4db287e04d98ab1e3ff64701c&amp;type=3#LTSaeada-Medium&apos;); -unity-font-definition: url(&apos;project://database/Assets/UI/common/font/LTSaeada-Medium%20SDF.asset?fileID=11400000&amp;guid=38730d8fb4d14ab4ba8404460129a0ce&amp;type=2#LTSaeada-Medium SDF&apos;); color: rgba(0, 0, 0, 0.76); font-size: 16px;" />
+    </ui:VisualElement>
+</ui:UXML>

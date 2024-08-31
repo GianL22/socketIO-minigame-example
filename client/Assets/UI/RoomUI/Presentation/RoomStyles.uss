@@ -1,0 +1,208 @@
+.container {
+    background-image: url('project://database/Assets/UI/common/bg/JoinServerBg.jpg?fileID=2800000&guid=efc70dd076f683a448f152d555fe0af1&type=3#JoinServerBg');
+    -unity-background-image-tint-color: rgb(255, 246, 0);
+    padding-top: 64px;
+    padding-right: 64px;
+    padding-bottom: 64px;
+    padding-left: 64px;
+}
+
+.form {
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0.56);
+    width: 50%;
+    height: 60%;
+    max-height: 600px;
+    max-width: 600px;
+    min-width: 300px;
+    min-height: 300px;
+    border-top-left-radius: 64px;
+    border-top-right-radius: 64px;
+    border-bottom-right-radius: 64px;
+    border-bottom-left-radius: 64px;
+    padding-top: 64px;
+    padding-right: 64px;
+    padding-bottom: 64px;
+    padding-left: 64px;
+    justify-content: center;
+}
+
+.header {
+    flex-direction: row;
+    width: 100%;
+    max-height: 128px;
+}
+
+.body {
+    flex-grow: 1;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.button {
+    background-color: rgb(255, 255, 255);
+    -unity-font-definition: url('project://database/Assets/UI/common/font/LTSaeada-Medium%20SDF.asset?fileID=11400000&guid=38730d8fb4d14ab4ba8404460129a0ce&type=2#LTSaeada-Medium SDF');
+    color: rgb(62, 154, 0);
+    font-size: 32px;
+    -unity-font-style: bold;
+    border-top-left-radius: 64px;
+    border-top-right-radius: 64px;
+    border-bottom-right-radius: 64px;
+    border-bottom-left-radius: 64px;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: rgb(62, 154, 0);
+    -unity-font-definition: url('project://database/Assets/UI/common/font/LTSaeada-Medium%20SDF.asset?fileID=11400000&guid=38730d8fb4d14ab4ba8404460129a0ce&type=2#LTSaeada-Medium SDF');
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    -unity-font-style: bold;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    border-bottom-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    width: 100%;
+    transition-duration: 0.2s;
+}
+
+.button:disabled {
+    background-color: rgb(157, 157, 157);
+    -unity-font-definition: url('project://database/Assets/UI/common/font/LTSaeada-Medium%20SDF.asset?fileID=11400000&guid=38730d8fb4d14ab4ba8404460129a0ce&type=2#LTSaeada-Medium SDF');
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    -unity-font-style: bold;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    border-bottom-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    width: 100%;
+    transition-duration: 0.2s;
+}
+
+.title {
+    font-size: 128px;
+    -unity-font-definition: url('project://database/Assets/UI/common/font/LTSaeada-Medium%20SDF.asset?fileID=11400000&guid=38730d8fb4d14ab4ba8404460129a0ce&type=2#LTSaeada-Medium SDF');
+    color: rgb(255, 255, 255);
+    margin-right: 64px;
+}
+
+.player-sprite {
+    flex-grow: 0;
+    height: 100%;
+    width: 240px;
+    border-top-left-radius: -123%;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-left-color: rgb(31, 80, 0);
+    border-right-color: rgb(31, 80, 0);
+    border-top-color: rgb(31, 80, 0);
+    border-bottom-color: rgb(31, 80, 0);
+    border-top-width: 8px;
+    border-right-width: 8px;
+    border-bottom-width: 8px;
+    border-left-width: 8px;
+    max-height: 240px;
+    background-image: url('project://database/Assets/Player/Sprite/PlayerSprite.jpg?fileID=2800000&guid=e1e8a881fcabcf34a8cd7352bbdd1720&type=3#PlayerSprite');
+    max-width: 240px;
+}
+
+.player-profile {
+    width: 240px;
+    height: 240%;
+    max-height: 240px;
+    max-width: 240px;
+    min-height: 240px;
+}
+
+.name-card {
+    flex-grow: 1;
+    width: 240px;
+    min-height: 60px;
+    background-color: rgb(31, 80, 0);
+    position: absolute;
+    bottom: 0;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 0;
+    max-height: 240px;
+    max-width: 240px;
+}
+
+.name-card Label {
+    -unity-text-align: middle-center;
+    -unity-font-definition: url('project://database/Assets/UI/common/font/LTSaeada-Medium%20SDF.asset?fileID=11400000&guid=38730d8fb4d14ab4ba8404460129a0ce&type=2#LTSaeada-Medium SDF');
+    color: rgb(240, 240, 240);
+    font-size: 24px;
+}
+
+.room-name {
+    font-size: 64px;
+    -unity-font-definition: url('project://database/Assets/UI/common/font/LTSaeada-Medium%20SDF.asset?fileID=11400000&guid=38730d8fb4d14ab4ba8404460129a0ce&type=2#LTSaeada-Medium SDF');
+    color: rgb(255, 255, 255);
+    -unity-text-align: lower-left;
+}
+
+.players-container {
+    background-color: rgba(0, 0, 0, 0.24);
+    border-top-left-radius: 64px;
+    border-top-right-radius: 64px;
+    border-bottom-right-radius: 64px;
+    border-bottom-left-radius: 64px;
+    border-left-color: rgba(0, 0, 0, 0.22);
+    border-right-color: rgba(0, 0, 0, 0.22);
+    border-top-color: rgba(0, 0, 0, 0.22);
+    border-bottom-color: rgba(0, 0, 0, 0.22);
+    flex-direction: row;
+    min-height: 100%;
+    width: 100%;
+    padding-top: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+    padding-left: 32px;
+    flex-wrap: wrap;
+    max-height: 100%;
+    justify-content: center;
+    margin-right: 64px;
+}
+
+.buttons-container {
+    height: 100%;
+    width: 60%;
+    justify-content: center;
+}
+
+.button-warning {
+    background-color: rgb(251, 18, 21);
+    -unity-font-definition: url('project://database/Assets/UI/common/font/LTSaeada-Medium%20SDF.asset?fileID=11400000&guid=38730d8fb4d14ab4ba8404460129a0ce&type=2#LTSaeada-Medium SDF');
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    -unity-font-style: bold;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    border-bottom-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    width: 100%;
+}
+
+.button-warning:hover {
+    background-color: rgb(255, 255, 255);
+    -unity-font-definition: url('project://database/Assets/UI/common/font/LTSaeada-Medium%20SDF.asset?fileID=11400000&guid=38730d8fb4d14ab4ba8404460129a0ce&type=2#LTSaeada-Medium SDF');
+    color: rgb(251, 18, 21);
+    font-size: 32px;
+    -unity-font-style: bold;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    border-bottom-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    width: 100%;
+    transition-duration: 0.2s;
+}
+
+.player-template {
+    max-height: 240px;
+    width: 240px;
+}

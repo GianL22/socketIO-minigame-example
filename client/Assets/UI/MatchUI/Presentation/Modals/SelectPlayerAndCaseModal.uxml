@@ -1,0 +1,41 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="GreenPlayerProfile" src="project://database/Assets/UI/MatchUI/Presentation/GreenPlayerProfile.uxml?fileID=9197481963319205126&amp;guid=f316df4d76b67c34083e07c4ee7bb257&amp;type=3#GreenPlayerProfile" />
+    <ui:Template name="CaseTemplate" src="project://database/Assets/UI/MatchUI/Presentation/Templates/CaseTemplate.uxml?fileID=9197481963319205126&amp;guid=53c3341026421a648a6c7ecdfbf84655&amp;type=3#CaseTemplate" />
+    <Style src="project://database/Assets/UI/MatchUI/Presentation/Modals/SelectPlayerAndCaseStyles.uss?fileID=7433441132597879392&amp;guid=847ee71337d135142a6f64958d51507a&amp;type=3#SelectPlayerAndCaseStyles" />
+    <ui:VisualElement name="Container" class="container" style="flex-grow: 1;">
+        <ui:VisualElement name="Modal" class="modal" style="flex-grow: 1;">
+            <ui:VisualElement name="ModalContainer" class="modal-container" style="flex-grow: 1;">
+                <ui:VisualElement name="ModalHeader" class="modal-header" style="flex-grow: 1;">
+                    <ui:VisualElement name="ModalTitle" class="modal-title" style="flex-grow: 1;">
+                        <ui:Label tabindex="-1" text="SELECT RIVAL AND CASE" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Title" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="ModalBody" class="modal-body" style="flex-grow: 1;">
+                    <ui:VisualElement name="SelecPlayerSection" class="select-player-section" style="flex-grow: 1;">
+                        <ui:VisualElement name="SelecPlayerTitle" class="select-player-title" style="flex-grow: 1;">
+                            <ui:Label tabindex="-1" text="Select rival" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SelectPlayerLabel" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="SelectPlayersList" class="select-players-list" style="flex-grow: 1;">
+                            <ui:Instance template="GreenPlayerProfile" name="GreenPlayerProfile" class="select-player-profile" />
+                            <ui:Instance template="GreenPlayerProfile" name="GreenPlayerProfile" class="select-player-profile player-profile-selected" />
+                            <ui:Instance template="GreenPlayerProfile" name="GreenPlayerProfile" class="select-player-profile" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="SelectCaseSection" class="select-case-section" style="flex-grow: 1;">
+                        <ui:VisualElement name="SelectCaseTitle" class="select-case-title" style="flex-grow: 1;">
+                            <ui:Label tabindex="-1" text="Select case" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SelectCaseLabel" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="SelectCaseList" class="select-case-list" style="flex-grow: 1;">
+                            <ui:Instance template="CaseTemplate" name="CaseTemplate" class="case" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="ModalFooter" class="modal-footer" style="flex-grow: 1;">
+                    <ui:VisualElement name="LestGoButton" class="lets-go-container" style="flex-grow: 1;">
+                        <ui:Button text="Lets Go" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,540 @@
+.container {
+    padding-top: 64px;
+    padding-right: 64px;
+    padding-bottom: 64px;
+    padding-left: 64px;
+}
+
+.remain-player-container {
+    background-color: rgba(0, 0, 0, 0.22);
+    width: 30%;
+    border-top-left-radius: 64px;
+    border-top-right-radius: 64px;
+    border-bottom-right-radius: 64px;
+    border-bottom-left-radius: 64px;
+    margin-right: 16px;
+    padding-top: 18px;
+    padding-right: 18px;
+    padding-bottom: 18px;
+    padding-left: 18px;
+}
+
+.scenario {
+    flex-direction: row;
+}
+
+.duel-scenario {
+    background-color: rgba(0, 0, 0, 0.22);
+    width: 70%;
+    border-top-left-radius: 64px;
+    border-top-right-radius: 64px;
+    border-bottom-right-radius: 64px;
+    border-bottom-left-radius: 64px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.remain-player-list {
+    height: 90%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.player-title {
+    height: 10%;
+}
+
+.player-title Label {
+    -unity-font-definition: url('project://database/Assets/UI/common/font/LTSaeada-Medium%20SDF.asset?fileID=11400000&guid=38730d8fb4d14ab4ba8404460129a0ce&type=2#LTSaeada-Medium SDF');
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    -unity-text-align: upper-center;
+}
+
+.player-profile-container {
+    height: 24%;
+    width: 48%;
+    max-width: 48%;
+    align-items: auto;
+}
+
+.duel {
+    padding-top: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+    padding-left: 32px;
+}
+
+.round-title {
+    height: 16%;
+}
+
+.round-title Label {
+    -unity-font-definition: url('project://database/Assets/UI/common/font/LTSaeada-Medium%20SDF.asset?fileID=11400000&guid=38730d8fb4d14ab4ba8404460129a0ce&type=2#LTSaeada-Medium SDF');
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    -unity-text-align: upper-center;
+}
+
+.duel-player-container {
+    height: 50%;
+    align-items: center;
+}
+
+.buttons-container {
+    height: 40%;
+    flex-direction: row;
+}
+
+.player-vs {
+    background-color: rgb(255, 0, 0);
+    width: 90%;
+    flex-direction: row;
+    padding-top: 0;
+    padding-right: 32px;
+    padding-bottom: 0;
+    padding-left: 32px;
+    align-items: center;
+}
+
+.player-in-vs {
+    height: 72%;
+    width: 50%;
+    justify-content: center;
+}
+
+.player-profile-vs-container {
+    height: 100%;
+    width: 100%;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out-back;
+}
+
+.vs-label-container {
+    justify-content: center;
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+.vs-label-container Label {
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+    -unity-font-definition: url('project://database/Assets/UI/common/font/LTSaeada-Medium%20SDF.asset?fileID=11400000&guid=38730d8fb4d14ab4ba8404460129a0ce&type=2#LTSaeada-Medium SDF');
+}
+
+.case-owner-container {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 60%;
+    height: 60%;
+    align-items: flex-end;
+    justify-content: flex-end;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out-circ;
+}
+
+.case-owner-container Label {
+}
+
+.steal-button-container {
+    width: 50%;
+    justify-content: center;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    transition-timing-function: ease-in-out-back;
+    transition-duration: 0.4s;
+}
+
+.steal-button-container Button {
+    background-color: rgb(11, 224, 18);
+    color: rgb(255, 255, 255);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    height: 64%;
+    font-size: 32px;
+    -unity-font-definition: url('project://database/Assets/UI/common/font/LTSaeada-Medium%20SDF.asset?fileID=11400000&guid=38730d8fb4d14ab4ba8404460129a0ce&type=2#LTSaeada-Medium SDF');
+    transition-duration: 0.2s;
+}
+
+.steal-button-container Button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(11, 224, 18);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    height: 64%;
+    font-size: 36px;
+    -unity-font-definition: url('project://database/Assets/UI/common/font/LTSaeada-Medium%20SDF.asset?fileID=11400000&guid=38730d8fb4d14ab4ba8404460129a0ce&type=2#LTSaeada-Medium SDF');
+    border-top-width: 16px;
+    border-right-width: 16px;
+    border-bottom-width: 16px;
+    border-left-width: 16px;
+    border-left-color: rgb(12, 225, 19);
+    border-right-color: rgb(12, 225, 19);
+    border-top-color: rgb(12, 225, 19);
+    border-bottom-color: rgb(12, 225, 19);
+    rotate: 4deg;
+    scale: 1.1 1.1;
+}
+
+.keep-it-container {
+    width: 50%;
+    justify-content: center;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out-back;
+    transition-delay: 0s;
+}
+
+.keep-it-container Button {
+    background-color: rgb(21, 85, 234);
+    color: rgb(255, 255, 255);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    height: 64%;
+    font-size: 32px;
+    -unity-font-definition: url('project://database/Assets/UI/common/font/LTSaeada-Medium%20SDF.asset?fileID=11400000&guid=38730d8fb4d14ab4ba8404460129a0ce&type=2#LTSaeada-Medium SDF');
+    transition-duration: 0.2s;
+}
+
+.keep-it-container Button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(21, 85, 234);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    height: 64%;
+    font-size: 36px;
+    -unity-font-definition: url('project://database/Assets/UI/common/font/LTSaeada-Medium%20SDF.asset?fileID=11400000&guid=38730d8fb4d14ab4ba8404460129a0ce&type=2#LTSaeada-Medium SDF');
+    border-top-width: 16px;
+    border-right-width: 16px;
+    border-bottom-width: 16px;
+    border-left-width: 16px;
+    border-left-color: rgb(21, 85, 234);
+    border-right-color: rgb(21, 85, 234);
+    border-top-color: rgb(21, 85, 234);
+    border-bottom-color: rgb(21, 85, 234);
+    rotate: -4deg;
+    scale: 1.1 1.1;
+}
+
+.use-power-container {
+    width: 100%;
+    justify-content: center;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    align-items: center;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out-back;
+}
+
+.use-power-container Button {
+    background-color: rgb(217, 114, 36);
+    color: rgb(255, 255, 255);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    height: 64%;
+    font-size: 32px;
+    -unity-font-definition: url('project://database/Assets/UI/common/font/LTSaeada-Medium%20SDF.asset?fileID=11400000&guid=38730d8fb4d14ab4ba8404460129a0ce&type=2#LTSaeada-Medium SDF');
+    transition-duration: 0.2s;
+    width: 64%;
+}
+
+.use-power-container Button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(217, 115, 36);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    height: 64%;
+    font-size: 36px;
+    -unity-font-definition: url('project://database/Assets/UI/common/font/LTSaeada-Medium%20SDF.asset?fileID=11400000&guid=38730d8fb4d14ab4ba8404460129a0ce&type=2#LTSaeada-Medium SDF');
+    border-top-width: 16px;
+    border-right-width: 16px;
+    border-bottom-width: 16px;
+    border-left-width: 16px;
+    border-left-color: rgb(217, 115, 36);
+    border-right-color: rgb(217, 115, 36);
+    border-top-color: rgb(217, 115, 36);
+    border-bottom-color: rgb(217, 115, 36);
+    scale: 1.1 1.1;
+    translate: 0 -4px;
+}
+
+.player-remain-profile {
+    height: 84%;
+    width: 100%;
+}
+
+.eliminated {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.eliminated Label {
+    position: absolute;
+    -unity-text-align: middle-center;
+    font-size: 128px;
+    -unity-font-definition: url('project://database/Assets/UI/common/font/LTSaeada-Medium%20SDF.asset?fileID=11400000&guid=38730d8fb4d14ab4ba8404460129a0ce&type=2#LTSaeada-Medium SDF');
+    color: rgb(255, 0, 0);
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out-back;
+}
+
+.has-power {
+    position: absolute;
+    right: 0;
+    opacity: 1;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out-circ;
+}
+
+.has-power Label {
+    position: absolute;
+    right: 0;
+    background-color: rgb(217, 114, 36);
+    border-left-color: rgba(217, 114, 36, 0);
+    border-right-color: rgba(217, 114, 36, 0);
+    border-top-color: rgba(217, 114, 36, 0);
+    border-bottom-color: rgba(217, 114, 36, 0);
+    border-top-width: 8px;
+    border-right-width: 8px;
+    border-bottom-width: 8px;
+    border-left-width: 8px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    -unity-font-definition: url('project://database/Assets/UI/common/font/LTSaeada-Medium%20SDF.asset?fileID=11400000&guid=38730d8fb4d14ab4ba8404460129a0ce&type=2#LTSaeada-Medium SDF');
+    color: rgb(255, 255, 255);
+    -unity-text-align: upper-center;
+    font-size: 16px;
+}
+
+.safed-players-container {
+    background-color: rgba(0, 0, 0, 0.22);
+    width: 30%;
+    border-top-left-radius: 64px;
+    border-top-right-radius: 64px;
+    border-bottom-right-radius: 64px;
+    border-bottom-left-radius: 64px;
+    margin-right: 0;
+    padding-top: 18px;
+    padding-right: 18px;
+    padding-bottom: 18px;
+    padding-left: 18px;
+    margin-left: 16px;
+}
+
+.safed-player-list {
+    height: 90%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.see-case-container {
+    width: 100%;
+    justify-content: center;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    align-items: center;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out-back;
+}
+
+.see-case-container Button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(11, 224, 18);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    height: 64%;
+    font-size: 32px;
+    -unity-font-definition: url('project://database/Assets/UI/common/font/LTSaeada-Medium%20SDF.asset?fileID=11400000&guid=38730d8fb4d14ab4ba8404460129a0ce&type=2#LTSaeada-Medium SDF');
+    transition-duration: 0.2s;
+    width: 64%;
+    border-left-color: rgb(11, 224, 18);
+    border-right-color: rgb(11, 224, 18);
+    border-top-color: rgb(11, 224, 18);
+    border-bottom-color: rgb(11, 224, 18);
+    border-top-width: 16px;
+    border-right-width: 16px;
+    border-bottom-width: 16px;
+    border-left-width: 16px;
+}
+
+.see-case-container Button:hover {
+    background-color: rgb(11, 224, 18);
+    color: rgb(255, 255, 255);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    height: 64%;
+    font-size: 36px;
+    -unity-font-definition: url('project://database/Assets/UI/common/font/LTSaeada-Medium%20SDF.asset?fileID=11400000&guid=38730d8fb4d14ab4ba8404460129a0ce&type=2#LTSaeada-Medium SDF');
+    border-top-width: 32px;
+    border-right-width: 32px;
+    border-bottom-width: 32px;
+    border-left-width: 32px;
+    border-left-color: rgb(11, 224, 18);
+    border-right-color: rgb(11, 224, 18);
+    border-top-color: rgb(11, 224, 18);
+    border-bottom-color: rgb(11, 224, 18);
+    scale: 1.1 1.1;
+    translate: 0 -4px;
+}
+
+.case {
+    width: 100%;
+    height: 100%;
+}
+
+.case-owner-container-initial {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 60%;
+    height: 60%;
+    align-items: flex-end;
+    justify-content: flex-end;
+    transition-duration: 0.2s;
+    scale: 0 0;
+    rotate: 90deg;
+}
+
+.case-owner-container-initial Label {
+}
+
+.player-profile-vs-container-initial {
+    height: 100%;
+    width: 100%;
+    scale: 0 0;
+}
+
+.steal-button-container-initial {
+    width: 50%;
+    justify-content: center;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    scale: 0 0;
+    rotate: -45deg;
+}
+
+.keep-it-container-initial {
+    width: 50%;
+    justify-content: center;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    rotate: 45deg;
+    scale: 0 0;
+}
+
+.see-case-container-initial {
+    width: 100%;
+    justify-content: center;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    align-items: center;
+    scale: 0 0;
+    rotate: 45deg;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out-back;
+}
+
+.see-case-container-initial {
+    width: 100%;
+    justify-content: center;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    align-items: center;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out-back;
+}
+
+.use-power-container-initial {
+    width: 100%;
+    justify-content: center;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    align-items: center;
+    scale: 0 0;
+    opacity: 1;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out-back;
+    rotate: 45deg;
+}
+
+.match-message-container {
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out-back;
+}
+
+.match-message-container Label {
+    -unity-font-definition: url('project://database/Assets/UI/common/font/LTSaeada-Medium%20SDF.asset?fileID=11400000&guid=38730d8fb4d14ab4ba8404460129a0ce&type=2#LTSaeada-Medium SDF');
+    color: rgb(255, 255, 255);
+    font-size: 256%;
+    white-space: normal;
+    -unity-text-align: upper-center;
+}
+
+.match-message {
+    justify-content: center;
+}
+
+.match-message-container-initial {
+    opacity: 1;
+    scale: 0 0;
+    display: flex;
+}
+
+.eliminated-initial Label {
+    position: absolute;
+    -unity-text-align: middle-center;
+    font-size: 256px;
+    -unity-font-definition: url('project://database/Assets/UI/common/font/LTSaeada-Medium%20SDF.asset?fileID=11400000&guid=38730d8fb4d14ab4ba8404460129a0ce&type=2#LTSaeada-Medium SDF');
+    color: rgb(255, 0, 0);
+}
+
+.has-power-initial {
+    position: absolute;
+    right: 0;
+    opacity: 0;
+}
