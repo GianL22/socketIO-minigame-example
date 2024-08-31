@@ -2,15 +2,14 @@
 ## What is this?
 
 A technical demonstration of socket-based multiplayer interaction, Briefcase Duel is a simple game where players connect to a server and engage in a series of one-on-one duels. Each player chooses a briefcase that is randomly assigned a "SAFED" or "ELIMINATED" status, and their opponent must send a "steal" or "pass" command to the server. The server then resolves the outcome and sends the result back to the clients.
-    <div >
-        <img src="docs/1.png" style="max-width: 100%;"/>
-        <img src="docs/2.png" style="max-width: 100%;"/>
-        <img src="docs/3.png" style="max-width: 100%;"/>
-        <img src="docs/4.png" style="max-width: 100%;"/>
-        <img src="docs/5.png" style="max-width: 100%;"/>
-        <img src="docs/6.png" style="max-width: 100%;"/>
+    <div style="display: flex; flex-wrap: nowrap;">
+      <img src="docs/1.png" width="30%" style="margin: 0 10px;">
+      <img src="docs/2.png" width="30%" style="margin: 0 10px;">
+      <img src="docs/3.png" width="30%" style="margin: 0 10px;">
+      <img src="docs/4.png" width="30%" style="margin: 0 10px;">
+      <img src="docs/5.png" width="30%" style="margin: 0 10px;">
+      <img src="docs/6.png" width="30%" style="margin: 0 10px;">
     </div>
-
 ## Features
 * Create and enter salar
 * Select rival and briefcase
